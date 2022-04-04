@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body{
+    background-color:#e0e8ff;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+p{
+    color: var(--Desaturated-blue);
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: fixed;
+    margin: 0;
+  }
+  a{
+      text-align: center;
+  }
+
+
+:root{
+    /*### Primary*/
+--Pale-blue: hsl(223, 41%, 93%);
+--Bright-blue: hsl(245, 75%, 52%);
+ /*### Neutral*/
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    width: 452px;
+    height: 650px;
+    margin: 60px auto;
+    border-radius: 10px;
+}
+
+.banner img{
+    width: 452px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+
+
+h1,p {
+    margin-top: 25px ;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: hsl(225, 100%, 98%);
+    width: 337px;
+    height: 84px;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+.box img {
+     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 47px;
+    height: 47px;
+}
+
+
+
+
+a{
+    margin-top: 35px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.servico{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+.servico button{
+    width: 357px;
+    height: 51px;
+    margin: 0px 10px 15px 15px;
+}
+
+button{
+    background-color: var(--Bright-blue);
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+#b1{
+    box-shadow: 0 0 4px blue;
+}
+
+#b2{
+    background-color: var(--Very-pale-blue);
+    color: var(--Desaturated-blue);
+    font-size: 1em;
+}
